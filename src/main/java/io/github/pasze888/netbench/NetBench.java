@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: LGPL-3.0-only
 package io.github.pasze888.netbench;
 
 import com.mojang.logging.LogUtils;

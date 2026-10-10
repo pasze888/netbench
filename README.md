@@ -9,7 +9,7 @@
 | Java | 25 |
 | mod id | `netbench` |
 | 包名 | `io.github.pasze888.netbench` |
-| License | MIT |
+| License | LGPL-3.0-only |
 
 > 客户端和服务端**都要装**。测试由服务端命令发起，客户端只负责回声（不需要客户端专属代码）。
 
@@ -101,4 +101,6 @@ CTR+zlib           64          ...            ...            ...
 - 工程骨架：**NeoForge MDK 26.1.2**（`MDK-26.1.2-ModDevGradle`，见 `TEMPLATE_LICENSE.txt`）。
 - 设计参考：[KryptonHybrid](https://github.com/dreamforSh/KryptonHybrid)（作者 dreamforSh，**LGPL-3.0**）
   的自定义 payload + 命令 + 统计快照组织方式（`NetworkTrafficStats`、`StatsSnapshotPayload`、`/krypton stats`）。
-  **本项目未复制其任何代码**，仅参考思路，因此本模组以 MIT 发布；若后续搬运其代码，请遵守 LGPL-3.0。
+  **本项目未复制其任何代码**，仅参考思路；两者同为 LGPL-3.0，若后续搬运其代码可直接复用。
+- 本模组以 **GNU LGPL-3.0-only** 发布，完整文本见 [LICENSE](LICENSE)（LGPL-3.0 通过引用并入 GPL-3.0 的条款）。
+  源码文件均带 `SPDX-License-Identifier: LGPL-3.0-only` 标记。
